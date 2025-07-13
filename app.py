@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
 # Конфигурация
-MODEL_ID = '/home/nick/deeplearning/DIPLOMA/project/plantato/epoch_15'
+MODEL_ID = '/home/nick/deeplearning/DIPLOMA/project/plantato/checkpoints/var_2'
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 @st.cache_resource
